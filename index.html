@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/kube.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/custom.min.css" />
+    <!-- <link rel="stylesheet" href="css/custom.min.css" /> -->
+    <link rel="stylesheet" href="css/custom.css" />
     <link rel="shortcut icon" href="img/favicon.png" />
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
@@ -29,7 +30,7 @@
 			    <nav id="navbar-1" class="navbar item-nav">
 				    <ul>
 				        <li class="active"><a href="#about">About</a></li>
-				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#selectie">Selectie</a></li>
 				        <li><a href="#achievements">Achievements</a></li>
 				        <li><a href="#skills">Skills</a></li>
 				    </ul>
@@ -41,7 +42,7 @@
 	<!-- Introduction -->
 	<div class="intro section" id="about">
 		<div class="container">
-			<p>Hey, I'm Jonathan</p>
+			<p>Hey, ik ben Jonathan</p>
 			<div class="units-row units-split wrap">
 				<div class="unit-20">
 					<img src="img/ava.jpg" alt="Avatar">
@@ -49,7 +50,7 @@
 				<div class="unit-80">
 					<h1>I love<br><span id="typed"></span></h1>
 				</div>
-				<p>
+				<p style="text-align: justify;text-justify: inter-word;">
 					Gedreven, prestatiegericht en leergierig. Dat zijn de drie karaktereigenschappen waarmee ik mijzelf graag voorstel. Deze eigenschappen komen terug in zowel mijn professionele en studentencarrière, en mijn privéleven.
 				</p>
 			</div>
@@ -57,23 +58,29 @@
 	</div>
 
 	<!-- Selectie Activiteiten -->
-	<div class="work section second" id="experiences">
+	<div class="work section second" id="selectie">
 		<div class="container">
 			<h1>Selectie<br>Activiteiten</h1>
-			<ul class="work-list">
-				<li>2014-2015</li>
-				<li><a href="#">PT Traveloka Indonesia</a></li>
-				<li>Web Designer</li>
+			<ul class="work-list gradientred">
+                <li><b>Seminarie</b></li>
+				<li><a href="#">Federale Gerechtelijke Politie: Forensics in practice</a></li>
+				<li>11 januari 2023</li>
+                <li style="text-align:justify; text-justify:inter-word; font-style:italic;">In dit seminarie gaf het Regional Computer Crime Unit van Limburg uitleg en een demonstratie betreffende “digital forensics” dat zij toepassen bij het onderzoeken van misdaadzaken. De studenten werden hierbij ook begeleid om deel te nemen via Kali Linux.</li>
 			</ul>
-			<ul class="work-list">
-				<li>2014-2015</li>
-				<li><a href="#">Wego</a></li>
-				<li>UI/UX Designer</li>
+			<ul class="work-list gradientgreen">
+				<li><b>POP-sessie</b></li>
+				<li><a href="#">My Team and I</a></li>
+				<li>19 oktober 2022</li>
+                <li style="text-align:justify; text-justify:inter-word; font-style:italic;">Een sessie voor teamontwikkeling. Naast de piramide van Lencioni werd er ook aandacht geschonken aan de belangen van individuele teamleden en hoe daarmee om te gaan als groep. Daarnaast waren er ook creatieve activiteiten om het teamverband naar aanloop van het IT-Project te versterken.</li>
 			</ul>
-			<ul class="work-list">
-				<li>2014-2015</li>
-				<li><a href="#">Garuda Indonesia</a></li>
-				<li>System Designer</li>
+			<ul class="work-list gradientcyan">
+				<li><b>Persoonlijk project</b></li>
+				<li><a href="#">Discord-bot voor communicatie met communitygameserver</a></li>
+				<li>November 2023</li>
+                <li style="text-align:justify; text-justify:inter-word; font-style:italic;">Voor een online vriendengroepcommunity waar ik deel van uitmaak heb ik een Discord-bot gemaakt voor een directe interne communicatie met een communitygameserver. Hierdoor is het mogelijk om, via het RCON-protocol van bepaalde games, zowel “in-game” commando’s als SQLite-databasequery’s uit te voeren.</li>
+			</ul>
+            <ul class="work-list">
+				<li><a href="#">Overzicht van alle activiteiten</a></li>
 			</ul>
 		</div>
 	</div>
@@ -175,7 +182,7 @@
     <script>
 		function newTyped(){}$(function(){$("#typed").typed({
 		// Change to edit type effect
-		strings: ["learning", "technology", "digital security", "cultures", "DevOps", "Kubernetes", "data", "communities", "games", "development", "history", "geography", "science"],
+		strings: ["learning", "technology", "astronomy", "digital security", "cultures", "DevOps", "Kubernetes", "data", "communities", "games", "development", "history", "geography", "science"],
 
 		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
     </script>

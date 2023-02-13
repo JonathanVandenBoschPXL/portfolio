@@ -2,6 +2,49 @@
  *  Draco HTML Template by @flamekaizar
  *  License: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
  */
+
+
+
+/* body {
+  background-color: black;
+} */
+
+.work-list.gradientcyan {
+  /* background: rgb(0,212,255);
+  background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(0,212,255,0) 57%); */
+  background-image: -webkit-linear-gradient(top, rgb(164, 237, 250) 0%, #fff 70%, #fff 100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+}
+
+.work-list.gradientgreen {
+  /* background: rgb(0,212,255);
+  background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(0,212,255,0) 57%); */
+  background-image: -webkit-linear-gradient(top, rgb(167, 250, 164) 0%, #fff 70%, #fff 100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+}
+
+.work-list.gradientred {
+  /* background: rgb(0,212,255);
+  background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(0,212,255,0) 57%); */
+  background-image: -webkit-linear-gradient(top, rgb(250, 164, 164) 0%, #fff 70%, #fff 100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+}
+
+
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display SC", serif;
   color: #333333; }
@@ -105,7 +148,7 @@ a:hover {
     position: absolute;
     left: -220px;
     top: -150px;
-    font-size: 270px;
+    font-size: 200px;
     z-index: -1;
     color: #f4f4f4; }
   .intro h1 span {
