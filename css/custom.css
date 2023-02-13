@@ -7,8 +7,14 @@
 
  body {
   /* background-color: black; */
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgb(4, 6, 18) 50%), url('../img/moon.jpg');
-  filter: blur(75%) saturate(50%);
+  /* background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgb(4, 6, 18) 50%), url('../img/moon.jpg'); */
+  /* filter: blur(75%) saturate(50%); */
+
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgb(4, 6, 18) 75%), url('../img/moon.jpg');
+  background-size: 100%;
+  background-position-y: 25%;
+  background-attachment: fixed;
+  /* backdrop-filter: blur(0px); */
 
 } 
 
