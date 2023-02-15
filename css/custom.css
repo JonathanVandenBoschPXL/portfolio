@@ -53,8 +53,21 @@
   padding: 10px;
 }
 
- .work-list.gradientred {
+.work-list.gradientred {
   background-image: -webkit-linear-gradient(top, rgb(23, 29, 46) 0%, #ffffff00 100%);
+  /* background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%), url('../img/sel1_bgjpg.png'); */
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+}
+
+.work-list.gradientblue {
+  background-image: -webkit-linear-gradient(top, rgb(23, 37, 46) 0%, #ffffff00 100%);
   /* background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%), url('../img/sel1_bgjpg.png'); */
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
@@ -97,6 +110,96 @@
   border-bottom-right-radius: 5px;
   padding: 10px;
 }*/
+
+
+
+li.activity_info {
+  padding-top:5px;
+}
+
+p.activity_info_item{
+  padding-right: 4%;
+  display:inline;
+  font-size: 11px;
+}
+
+p.activity_title{
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+
+  font-size: 1.1875em;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.activity_info_icon{
+  vertical-align: middle;
+  filter: invert(100%);
+  width: 12px;
+  height: 12px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-bottom: 2px;
+}
+
+a.reset{
+  text-decoration: none !important;
+  font-weight: 300 !important;
+  border-bottom: none !important;
+  /* border-bottom: 1px solid #b3b3b3; */
+  font-size: 11px !important;
+}
+
+/* .date::before{
+  content: "";
+  background: url("../icons/calendar.png") no-repeat;
+  background-size: cover;
+  width: 12px;
+  height: 12px;
+  float: left;
+  margin-right: 6px;
+  margin-top: 6px;
+  filter: invert(100%);
+  vertical-align: middle;
+}
+
+.location::before{
+  content: "";
+  background: url("../icons/location.png") no-repeat;
+  background-size: cover;
+  width: 12px;
+  height: 12px;
+  float: left;
+  margin-right: 6px;
+  margin-top: 6px;
+  filter: invert(100%);
+  vertical-align: middle;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
