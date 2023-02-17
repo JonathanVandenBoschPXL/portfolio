@@ -18,6 +18,16 @@
 
 } 
 
+#wiebenik {
+  padding-top: 75px;
+  margin-top: -75px;
+}
+
+#skills {
+  padding-top: 75px;
+  margin-top: -75px;
+}
+
 .work-list.gradientwhite {
   /* background: rgb(0,212,255);
   background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(0,212,255,0) 57%); */
@@ -377,7 +387,7 @@ a:hover {
 
 .award .award-list {
   margin-left: 0px; }
-  .award .award-list li:first-child {
+  .award .award-list li.gray {
     font-size: 0.9375em;
     color: #8c8c8c; }
 
@@ -388,7 +398,7 @@ a:hover {
     color: #8c8c8c; }
 
 .quote {
-  background: url(../img/bg.jpg);
+  background: url(../img/bg3b.jpg);
   padding: 20px 0px;
   margin-top: 120px; }
   .quote h1 {
