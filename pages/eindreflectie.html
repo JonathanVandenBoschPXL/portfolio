@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Jonathan Van den Bosch</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jonathan Van den Bosch">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/kube.min.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" href="css/custom.min.css" /> -->
+    <link rel="stylesheet" href="../css/custom.css" />
+    <link rel="shortcut icon" href="../img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			content: 'JONATHAN';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav" id="navbar">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">JONATHAN</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li><a href="../index.html#about">About</a></li>
+						<li><a href="../index.html#wiebenik">Wie ben ik?</a></li>
+				        <li><a href="../index.html#selectie">Selectie</a></li>
+						<li><a href="overzicht_activiteiten.html">Activiteiten</a></li>
+				        <li><a href="../index.html#achievements">Achievements</a></li>
+				        <li><a href="../index.html#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p></p>
+			<div class="units-row units-split wrap">
+				<div class="unit-80">
+					<h1>This is about<br><span id="typed"></span></h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Selectie Activiteiten -->
+	<div class="work section second" id="selectie">
+		<div class="container">
+			<!-- <h1>Federale Gerechtelijke Politie: Forensics in practice</h1> -->
+			<ul class="work-list gradientred">
+                <li><b>Seminarie</b></li>
+				<li><a href="#">Federale Gerechtelijke Politie: Forensics in practice</a></li>
+				<li>11 januari 2023</li>
+                <li style="text-align:justify; text-justify:inter-word; font-style:italic;">
+				<p>Op woensdag 19 oktober 2022 hebben een gedeelte van de studenten van het IT-Project een POP-sessie kunnen bijwonen genaamd “My Team and I”. Deze sessie, gericht op het versterken van de teamverbanden van de toen pas opgestelde teams voor het IT-Project van Hogeschool PXL, werd door Hogeschool PXL georganiseerd en gehouden op de Corda Campus door Carl Vlems en Jo Dens, de twee enthousiaste bezielers van de organisatie Learning Path dat trainingen en vormingssessies biedt aan de teams van bedrijven, projecten en organisaties.</p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<div style="text-align: center"><img src="../img/sel1/fig1.png" alt="fig1"></div>
+				<p></p>
+				<p></p>
+				<div style="text-align: center"><img src="../img/sel1/fig2.png" alt="fig2"></div>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				</li>
+			</ul>
+            <ul class="work-list">
+				<li><a href="overzicht_activiteiten.html">Overzicht van alle activiteiten</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Quote -->
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>fight against the ugliness.</h1>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>© 2023</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:0yu5s5bip@mozmail.com"><i class="fa fa-send"></i></a></li>
+						<!-- <li><a href="http://twitter.com/afnizarnur"><i class="fa fa-twitter"></i></a></li> -->
+						<!-- <li><a href="http://dribbble.com/afnizarnur"><i class="fa fa-dribbble"></i></a></li> -->
+						<!-- <li><a href="http://behance.com/afnizarnur"><i class="fa fa-behance"></i></a></li> -->
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/typed.min.js"></script>
+    <script src="../js/kube.min.js"></script>
+    <script src="../js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["teamwork", "growth", "challenges"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+
+		var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-75px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+    </script>
+</body>
+</html>
